@@ -86,6 +86,7 @@ body {
 
 .play-icon,
 .pause-icon {
+	position: absolute;
 	width: 15%;
 	transition: 500ms;
 }
@@ -123,7 +124,7 @@ body {
 }
 
 .hidden {
-	display: none;
+	visibility: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -131,9 +132,9 @@ body {
 		width: 70%;
 	}
 
-    .cta {
-        width: 60%;
-    }
+	.cta {
+		width: 60%;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -146,15 +147,15 @@ body {
 		margin: 1rem;
 	}
 
-    .cta {
-        width: 75%;
-    }
-    
-    .cta span {
-        font-size: 18px;
-    }
+	.cta {
+		width: 75%;
+	}
 
-    .cta small {
-        font-size: 12px;
-    }	
+	.cta span {
+		font-size: 18px;
+	}
+
+	.cta small {
+		font-size: 12px;
+	}
 }
